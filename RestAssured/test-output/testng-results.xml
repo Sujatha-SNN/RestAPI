@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10875" started-at="2020-08-19T19:51:22 IST" finished-at="2020-08-19T19:51:33 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10875" started-at="2020-08-19T19:51:22 IST" finished-at="2020-08-19T19:51:33 IST">
+      <class name="august.restassured.aug18assignment.CreateJIRAIssue">
+        <test-method status="PASS" signature="loadCredentials()[pri:0, instance:august.restassured.aug18assignment.CreateJIRAIssue@11cdd8a]" name="loadCredentials" is-config="true" duration-ms="55" started-at="2020-08-19T19:51:22 IST" finished-at="2020-08-19T19:51:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadCredentials -->
+        <test-method status="PASS" signature="createJiraIssue()[pri:0, instance:august.restassured.aug18assignment.CreateJIRAIssue@11cdd8a]" name="createJiraIssue" duration-ms="9545" started-at="2020-08-19T19:51:22 IST" finished-at="2020-08-19T19:51:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createJiraIssue -->
+      </class> <!-- august.restassured.aug18assignment.CreateJIRAIssue -->
+      <class name="august.restassured.aug18assignment.GetIssue">
+        <test-method status="PASS" signature="getIssue()[pri:0, instance:august.restassured.aug18assignment.GetIssue@144fc21]" name="getIssue" duration-ms="1126" started-at="2020-08-19T19:51:31 IST" depends-on-methods="august.restassured.aug18assignment.CreateJIRAIssue.createJiraIssue" finished-at="2020-08-19T19:51:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getIssue -->
+      </class> <!-- august.restassured.aug18assignment.GetIssue -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
